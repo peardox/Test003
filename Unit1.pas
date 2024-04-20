@@ -35,10 +35,7 @@ begin
   InitializeLog;
 
   CastleControl := TCastleControl.Create(Layout1);
-  CastleControl.Align := TAlignLayout.Client;
-  CastleControl.Parent := Layout1;
   CastleApp := TCastleApp.Create(CastleControl);
-  CastleControl.Container.View := CastleApp;
 end;
 
 end.

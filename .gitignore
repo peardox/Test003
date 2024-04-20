@@ -12,7 +12,7 @@
 *.o
 *.or
 *.a
-*.obj
+/*.obj
 AndroidSigningProperties.txt
 *Copy*
 grab*
